@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("Hello world!");
 
-        Scanner scanner = FileReader.readTheFile("C:\\Users\\marlo\\Documents\\Programmieren\\AdventOfCode\\src\\D01\\puzzleInput");
+        Scanner scanner = FileReader.readTheFile("src/D01/puzzleInput");
 
         int i = 0;
 

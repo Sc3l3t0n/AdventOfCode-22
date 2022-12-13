@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanner = FileReader.readTheFile("C:\\Users\\marlo\\Documents\\Programmieren\\AdventOfCode\\src\\D02\\puzzleInput");
+        Scanner scanner = FileReader.readTheFile("src/D02/puzzleInput");
 
         int gamePoints = 0;
 
@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println(gamePoints);
 
-        scanner = FileReader.readTheFile("C:\\Users\\marlo\\Documents\\Programmieren\\AdventOfCode\\src\\D02\\puzzleInput");
+        scanner = FileReader.readTheFile("src/D02/puzzleInput");
 
         int gamePointsOtherStrategy = 0;
 
