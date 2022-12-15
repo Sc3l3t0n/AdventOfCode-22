@@ -18,4 +18,8 @@ public class FileReader {
 
     }
 
+    public static void toNextBlankLine(Scanner scanner){
+        while (!scanner.nextLine().isEmpty());
+    }
+
 }
